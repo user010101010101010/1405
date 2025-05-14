@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+}
+.green {
+    width: 31.111vw;
+    height: 31.111vw;
+    background-color: #958941;
+    top: 60.903vw;
+    left: 50.417vw;
+    position: absolute;
+}
+.black {
+    width: 22.778vw;
+    height: 10.903vw;
+    background-color: #9cb9cf;
+    rotate: 147deg;
+    top: 33.056vw;
+    left: 57.5vw;
+    position: absolute;
+}
+.red {
+    width: 40.069vw;
+    height: 11.389vw;
+    background-color: #9E4038;
+    rotate: 147deg;
+    position: absolute;
+    top: 34vw;
+    left: 25vw;
+}
+.blue {
+    width: 12.847vw;
+    height: 8.472vw;
+    background-color: #262A2D;
+    rotate: 149deg;
+    position: absolute;
+    top: 30vw;
+    left: 26vw;
+}
+.purple {
+    width: 40.069vw;
+    height: 3.542vw;
+    background-color: #3F406E;
+    rotate: 139deg;
+    position: absolute;
+    top: 23vw;
+    left: 12vw;
+}
+.orange {
+    width: 15.833vw;
+    height: 10vw;
+    background-color: #BF8933;
+    rotate: 138deg;
+    position: absolute;
+    top: 6.736vw;
+    left: 25.694vw;
+}
