@@ -18,6 +18,16 @@
     top: 33.056vw;
     left: 57.5vw;
     position: absolute;
+    animation: bounce 1s infinite alternate;
+}
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-50px);
+    }
 }
 .red {
     width: 40.069vw;
@@ -27,7 +37,22 @@
     position: absolute;
     top: 34vw;
     left: 25vw;
+    animation: pulse 1.5s infinite;
 }
+
+  @keyframes pulse {
+      0% {
+          transform: scale(1);
+      }
+
+      50% {
+          transform: scale(1.1);
+      }
+
+      100% {
+          transform: scale(1);
+      }
+  }
 .blue {
     width: 12.847vw;
     height: 8.472vw;
@@ -36,7 +61,18 @@
     position: absolute;
     top: 30vw;
     left: 26vw;
+    animation: spin 1s linear infinite;
 }
+
+  @keyframes spin {
+      0% {
+          transform: rotate(0deg);
+      }
+
+      100% {
+          transform: rotate(360deg);
+      }
+  }
 .purple {
     width: 40.069vw;
     height: 3.542vw;
@@ -45,6 +81,14 @@
     position: absolute;
     top: 23vw;
     left: 12vw;
+    opacity: 0;
+    animation: fadeIn 2s infinite;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
 }
 .orange {
     width: 15.833vw;
